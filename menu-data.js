@@ -1630,8 +1630,7 @@ const PRODUCTS = [
     included: null,
     image: null,
     labels: [],
-    optionGroups: ["glass-count", "serving-shochu"],
-    vessel: "bottle",
+    optionGroups: ["serving-shochu"],
     variants: [
       { id:"shochu-kurokirishima", size:null, price:580, slipName:"黒霧島" }
     ]
@@ -1646,8 +1645,7 @@ const PRODUCTS = [
     included: null,
     image: null,
     labels: [],
-    optionGroups: ["glass-count", "serving-shochu"],
-    vessel: "bottle",
+    optionGroups: ["serving-shochu"],
     variants: [
       { id:"shochu-rokudaime-yuri", size:null, price:700, slipName:"六代目百合" }
     ]
@@ -1662,8 +1660,7 @@ const PRODUCTS = [
     included: null,
     image: null,
     labels: [],
-    optionGroups: ["glass-count", "serving-shochu"],
-    vessel: "bottle",
+    optionGroups: ["serving-shochu"],
     variants: [
       { id:"shochu-akarui-nouson", size:null, price:810, slipName:"明るい農村" }
     ]
@@ -1678,8 +1675,7 @@ const PRODUCTS = [
     included: null,
     image: null,
     labels: [],
-    optionGroups: ["glass-count", "serving-shochu"],
-    vessel: "bottle",
+    optionGroups: ["serving-shochu"],
     variants: [
       { id:"shochu-nikaido", size:null, price:580, slipName:"二階堂" }
     ]
@@ -1694,8 +1690,7 @@ const PRODUCTS = [
     included: null,
     image: null,
     labels: [],
-    optionGroups: ["glass-count", "serving-shochu"],
-    vessel: "bottle",
+    optionGroups: ["serving-shochu"],
     variants: [
       { id:"shochu-obinokurakara", size:null, price:580, slipName:"おびの倉から" }
     ]
@@ -1710,8 +1705,7 @@ const PRODUCTS = [
     included: null,
     image: null,
     labels: [],
-    optionGroups: ["glass-count", "serving-shochu"],
-    vessel: "bottle",
+    optionGroups: ["serving-shochu"],
     variants: [
       { id:"shochu-amaterasu", size:null, price:580, slipName:"天照" }
     ]
@@ -1726,8 +1720,7 @@ const PRODUCTS = [
     included: null,
     image: null,
     labels: [],
-    optionGroups: ["glass-count", "serving-shochu"],
-    vessel: "bottle",
+    optionGroups: ["serving-shochu"],
     variants: [
       { id:"shochu-sannennetaro", size:null, price:580, slipName:"三年寝太郎" }
     ]
