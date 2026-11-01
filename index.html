@@ -975,7 +975,13 @@ function renderStaff() {
   const timing = TIMINGS.find(x => x.value === serveTiming);
 
   const note = currentLang === "ja" ? UI_TEXT.ja.showToStaffNote : `${t().showToStaffNote} / ${UI_TEXT.ja.showToStaffNote}`;
-  list.innerHTML = frames.map(f => `
+  // ふつうのモバイルオーダーと勘違いされないよう、お客さまの言語で一番上に大きく出す
+  const showBanner = `
+    <div class="show-staff-banner" role="alert">
+      <div class="show-staff-banner-title">👉 ${esc(t().showToStaffNote)}</div>
+      <div class="show-staff-banner-text">${esc(t().orderNotSent)}</div>
+    </div>`;
+  list.innerHTML = showBanner + frames.map(f => `
     <section class="service-frame">
       <div class="service-band ${f.service}">${esc(bandLabel[f.service])}</div>
       <div class="service-frame-body">

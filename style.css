@@ -1498,6 +1498,33 @@ body.sheet-open { overflow: hidden; }
   color: var(--nezumi);
 }
 
+/* 店員画面の一番上：お客さまの言語で「この画面を店員に見せる」「注文はまだ送信されていない」 */
+.show-staff-banner {
+  margin-bottom: 18px;
+  padding: 14px 16px;
+  background: var(--warn-bg);
+  border: 2px solid var(--warn-line);
+  border-left-width: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(35, 24, 21, .12);
+}
+
+.show-staff-banner-title {
+  font-family: var(--display);
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--warn-ink);
+}
+
+.show-staff-banner-text {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--beni);
+}
+
 /* ---------- 狭い画面・背の低い画面 ---------- */
 @media (max-width: 374px) {
   :root { --gutter: 14px; }
